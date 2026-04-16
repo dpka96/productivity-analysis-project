@@ -1,4 +1,5 @@
 # Productivity & Behavioural Analysis Project
+A data analysis project focused on identifying real drivers of productivity using behavioural and lifestyle data.
 
 ## Overview
 
