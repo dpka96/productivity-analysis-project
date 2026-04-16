@@ -91,6 +91,9 @@ The interactive dashboard includes:
   * Job Type
   * Age Group
 
+## Dashboard Preview
+
+![Dashboard](dashboard/Dashboard_Preview.png)
 ---
 
 ## Key Learning
