@@ -1,11 +1,11 @@
 # Productivity & Behavioural Analysis Project
-A data analysis project focused on identifying real drivers of productivity using behavioural and lifestyle data.
+An end-to-end data analysis project using Python and Power BI to explore productivity, stress, burnout, and job satisfaction using behavioural, lifestyle, and demographic data.
 
 ## Overview
 
 This project analyses how behavioural, lifestyle, and demographic factors impact **productivity, stress, burnout, and job satisfaction**.
 
-The goal was to go beyond basic analysis and identify **real drivers of productivity**, while also validating how data preprocessing choices affect insights.
+The goal was to go beyond basic analysis and identify **key factors associated with productivity**, while also validating how data preprocessing choices affect insights.
 
 ---
 
@@ -26,10 +26,10 @@ The goal was to go beyond basic analysis and identify **real drivers of producti
 
 ## Tools & Technologies
 
-* **Python** (Pandas, NumPy, Matplotlib)
-* **Power BI** (Dashboard & visualization)
-* **Jupyter Notebook**
-* **GitHub**
+* **Python** — Pandas, NumPy, Matplotlib
+* **Power BI** — Dashboard & visualization
+* **Jupyter Notebook** — Data cleaning and analysis
+* **GitHub** — Version control and project documentation
 
 ---
 
@@ -63,17 +63,25 @@ The goal was to go beyond basic analysis and identify **real drivers of producti
 
 ---
 
+## What I Did
+
+* Inspected and prepared a 30,000-row behavioural dataset for analysis
+* Evaluated different approaches to handling missing values
+* Created derived features for burnout risk, stress, sleep, and age groups
+* Performed descriptive and correlation analysis using Python
+* Compared productivity patterns across demographic and job-related groups
+* Built an interactive Power BI dashboard to communicate key findings
+* Validated how preprocessing decisions affected analytical results
+
+---
+
 ## Key Insights
 
-* Job satisfaction shows the **strongest correlation with productivity**
-* Burnout is primarily driven by:
-
-  * High stress
-  * Long working hours
-  * Low sleep
-* Social media usage has **less direct impact** than expected
-* Demographic factors (age, gender) show **minimal variation**
-* Data cleaning method significantly impacts analytical results
+* Job satisfaction shows the strongest correlation with productivity among the analysed variables.
+* Higher stress, longer working hours, and lower sleep levels are associated with higher burnout risk.
+* Social media usage shows a weaker relationship with productivity than initially expected.
+* Age and gender show relatively limited variation in the analysed productivity patterns.
+* Different missing-value handling approaches can materially affect correlation results and analytical conclusions.
 
 ---
 
@@ -122,7 +130,7 @@ dashboard/
 
 ## Conclusion
 
-Productivity is influenced more by **job satisfaction and workplace conditions** than by direct behavioural factors like screen time.
+Productivity shows stronger associations with **job satisfaction and work-related factors** than with direct behavioural factors like screen time.
 
 This project highlights the importance of:
 
@@ -134,4 +142,5 @@ This project highlights the importance of:
 
 ## 👤 Author
 
-Deepika Chauthani
+**Deepika Chauthani**
+Data Engineer | SQL | ETL | Python | Power BI | Tableau
